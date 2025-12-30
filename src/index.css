@@ -1,0 +1,21 @@
+:root {
+  --primary: #0f172a;      /* Deep Navy */
+  --accent: #f97316;       /* Apex Orange */
+  --glass: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --grad: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Plus Jakarta Sans', sans-serif; }
+
+body {
+  background: #f8fafc;
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
